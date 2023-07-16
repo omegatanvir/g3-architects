@@ -1,7 +1,7 @@
 /* Work Sans Font From Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
 
-/* Most Common Style */
+/* Most Common Styles */
 /* -====================- */
 *{
     margin: 0px;
@@ -18,8 +18,20 @@ body{
     max-width: 1140px;
     margin: auto;
 }
+
+/* button styles */
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    padding: 18px 24px;
+}
 /* ======================= */
-/* -----Header Style---------- */
+/* -----Header Styles---------- */
 /* ======================= */
 .header{
     background: rgba(255, 144, 14, 0.10);
@@ -32,6 +44,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 0px;
 }
 .menu a{
@@ -40,9 +53,33 @@ nav{
 .menu ul{
     display: flex;
     list-style: none;
-    margin-top: 5px;
     gap: 50px;
     color: var(--dark-02, #424242);
     font-size: 1.125rem;
     font-weight: 500;
+}
+/* ======================= */
+/* -----Banner Styles---------- */
+/* ======================= */
+.banner-content{
+    width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+.banner-title{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.banner-description{
+    color: #727272;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+
+.banner  img {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 20px;
 }

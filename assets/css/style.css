@@ -29,6 +29,7 @@ body{
     font-weight: 600;
     border: 0;
     padding: 18px 24px;
+    cursor: pointer;
 }
 /* ======================= */
 /* -----Header Styles---------- */
@@ -68,7 +69,7 @@ nav{
 }
 .banner-title{
     color: #131313;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
     margin-top: 100px;
 }
@@ -82,4 +83,42 @@ nav{
     width: 100%;
     margin-top: 50px;
     padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* ---------Responsive Media Quary---------  */
+/* Mobile devices */
+@media screen and (max-width: 570px) {
+    /* banner style */
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-content{
+        width: 90%;
+    }
+    .banner-title{
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+
+}
+/* Medium Devices */
+@media screen and (min-width: 570px) and (max-width: 960px) {
+    .banner-content{
+        width: 90%;
+    }
+}
+/* Large Screen Devices */
+@media screen and (max-width: 1140px) {
+    .banner-content{
+        width: 100%;
+    }
 }

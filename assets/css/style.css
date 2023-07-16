@@ -115,10 +115,5 @@ nav{
     .banner-content{
         width: 90%;
     }
-}
-/* Large Screen Devices */
-@media screen and (max-width: 1140px) {
-    .banner-content{
-        width: 100%;
-    }
+
 }

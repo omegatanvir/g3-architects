@@ -137,11 +137,55 @@ nav{
     margin: 20px 0px;
 }
 
+/* ======================= */
+/* -----Some Fact Styles---------- */
+/* ======================= */
+.fact-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.fact-description{
+    color: #727272;
+    line-height: 26px; 
+    width: 32rem;
+    margin-top: 1.5rem;
+}
+
+.fact-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem 0px ;
+}
+
+.card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 1.8rem;
+}
+
+.card img{
+    margin-bottom: 1.125rem;
+}
+
+.card-title{
+    color: #424242;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.card-description{
+    color:#727272;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
-
-
+/* ================================= */
 /* ---------Responsive Media Quarry---------  */
+/* ================================= */
 /* Mobile devices */
 @media screen and (max-width: 570px) {
     /* banner style */

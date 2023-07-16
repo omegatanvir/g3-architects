@@ -16,8 +16,9 @@ body{
 
 .container{
     max-width: 1140px;
-    margin: auto;
+    margin: 0 auto;
 }
+
 
 /* button styles */
 .btn-primary{
@@ -85,9 +86,56 @@ nav{
     padding-bottom: 20px;
 }
 
+/* ======================= */
+/* -----Features Styles---------- */
+/* ======================= */
+.features{
+    margin: 80px 0px;
+}
+.features-section{
+    display: flex;
+    align-items: center;
+}
 
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    width: 35.625rem;
+    margin-left: 2.5rem;
+}
 
+.team-image img{
+    width: 100%;
+}
 
+.features-content{
+    padding: 0px 70px;
+    width: 35.625rem;
+}
+
+.team-title{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.team-title .of-our{
+    color: #131313;
+    font-weight: 700;
+}
+
+.team-title .feature{
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.team-description{
+    color: #727272;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0px;
+}
 
 
 

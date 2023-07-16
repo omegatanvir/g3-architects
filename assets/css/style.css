@@ -141,7 +141,7 @@ nav{
 
 
 
-/* ---------Responsive Media Quary---------  */
+/* ---------Responsive Media Quarry---------  */
 /* Mobile devices */
 @media screen and (max-width: 570px) {
     /* banner style */
@@ -150,11 +150,24 @@ nav{
         gap: 20px;
     }
     .banner-content{
-        width: 90%;
+        width: 100%;
     }
     .banner-title{
         font-size: 3rem;
         margin-top: 2rem;
+    }
+
+    /* Features Styles */
+    .features-section{
+        flex-direction: column-reverse;
+        gap: 5rem;
+        /* margin: 0rem 1.25rem; */
+    }
+    .team-image{
+        grid-template-columns: 1fr;
+    }
+    .features-content{
+        text-align: center;
     }
 
 }

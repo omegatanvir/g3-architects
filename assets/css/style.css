@@ -213,6 +213,12 @@ nav{
     .features-content{
         text-align: center;
     }
+    /* fact-card Style */
+    .fact-card{
+        flex-direction: column;
+        gap: 1.125rem;
+        margin: 1.25rem;
+    }
 
 }
 /* Medium Devices */
